@@ -1,0 +1,12 @@
+
+####### After completion of program, to compile use below code ########
+
+FLAGS="$(pkg-config --cflags --libs opencv4)"
+g++ programName.cpp -o outputFileName $FLAGS
+
+
+######### To run the compile file, use below code
+
+./outputFileName
+
+
